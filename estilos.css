@@ -1,0 +1,85 @@
+* {
+  font-family: sans-serif; /* Change your font family */
+}
+
+label, input{
+    display: block;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0px 5px 0px;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+button {
+  border-radius: 5px;
+  font-size: 0.9em;
+  margin: 10px 0;
+}
+
+h3{
+    margin: 15px;
+    border-radius: 8px;
+}
+
+h3, button{
+    background-color: #009879;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.tituloSesion{
+    border-radius: 5px 5px 0 0;
+}
+
+.content-form{
+    border-bottom: solid #009879 2px;
+}
+
+h5{
+    text-align: center;
+    background-color: tomato;
+    color: #ffffff;
+    margin: auto;
+    border-radius: 8px;
+    padding: 5px;
+    width: 20%
+}
+
+.content-form, h3{
+    width: 30%
+}
