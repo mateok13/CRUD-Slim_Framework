@@ -1,13 +1,9 @@
 <?php
-require '../vendor/autoload.php';
 
-$app = new \Slim\Slim();
-$app->config(array(
-                        'debug' => true,
-                        'templates.path' => 'vista',
-                    ));
+include '../modelo/conexionBD.php';
+include '../aplicacion.php';
 
-$BD = new PDO('mysql:host=localhost;dbname=talleframework;charset=utf8','root','');
+$BD = conexion();
 
 $app->post('/', function() use($app, $BD){
     $request = $app->request;
